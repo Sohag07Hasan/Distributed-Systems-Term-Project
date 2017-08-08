@@ -1,0 +1,20 @@
+Clarification about Assignment
+by Dr. Hossen Asiful Mustafa - Saturday, 22 July 2017, 10:46 PM
+ 
+The project data actually used HMAC-MD5 rather than salted MD5 for hash generation.
+
+For HMAC-MD5, HT=18D9D801539D2CA1EAD17A0EFCCF82A2
+
+For salted MD5, HT=041e4a5704390ffa50d96145b75a60ec
+
+Any one of the implementation will be accepted.
+
+
+
+Example: for key=12345678
+
+For HMAC-MD5, HT=C303931CF27270E7039CA140861B0739
+
+For salted MD5, HT=ac702709256a8dddaed62da22fc35f16
+
+ 
